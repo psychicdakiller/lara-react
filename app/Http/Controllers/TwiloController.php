@@ -18,7 +18,7 @@ class TwiloController extends Controller
         $token = config('services.twilio.token');
         $twilio = new Client($sid, $token);
 
-        $to = '+959975685552'; // Replace with the recipient's phone number
+        $to = '+959123456789'; // Replace with the recipient's phone number
         $from = config('services.twilio.phone_number');
         $message = "Your OTP is: $otp";
 
