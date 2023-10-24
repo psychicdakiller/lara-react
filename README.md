@@ -19,3 +19,5 @@ Building Laravel with React JS
 + TWILIO_SID=your twilo sid
 + TWILIO_AUTH_TOKEN=your twilo auth token
 + TWILIO_PHONE_NUMBER=your twilo phone number
+
++ http://localhost:8000/send-otp
